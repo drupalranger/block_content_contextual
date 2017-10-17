@@ -1,4 +1,8 @@
 ## Oh no! My contextual links are gone!
+
+*This is an example module, which shows how to render custom block entities together with contextual links in Drupal 8*
+
+### Backround
 While rendering entities in a custom module, you may find that your markup is incorrect.. or rather incomplete,
 and contextual links are not showing up. 
 
