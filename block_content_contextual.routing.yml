@@ -1,0 +1,6 @@
+block_content_contextual.example:
+  path: '/examples/block_content_contextual'
+  defaults:
+    _controller: '\Drupal\block_content_contextual\Controller\BlockContentContextualController::example'
+  requirements:
+    _permission: 'access content'

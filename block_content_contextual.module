@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Contains block_content_contextual.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function block_content_contextual_theme($existing, $type, $theme, $path) {
+  // This very simple theme hook allows us to wrap our entity view render arrays
+  // into custom template and take care of atrributes required to render
+  // contextual links correctly.
+  return [
+    'block_content_contextual_links_wrap' => [
+      'variables' => [
+        'content' => [],
+      ],
+    ],
+  ];
+}
