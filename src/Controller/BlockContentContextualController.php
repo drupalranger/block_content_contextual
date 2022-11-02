@@ -90,7 +90,7 @@ class BlockContentContextualController extends ControllerBase {
 
     // Get entity view builder.
     $block_builder = $this->entityTypeManager->getViewBuilder('block_content');
-    kint($block_builder);
+
     // Render blocks in two variants to show the difference.
     // What's interesting - markup for those variant will be the same
     // for users without access to contextual links.

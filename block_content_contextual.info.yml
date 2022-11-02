@@ -1,7 +1,7 @@
 name: Block content contextual links
 type: module
 description: Example module to show how to display contextual links for block content rendered with entity view builder.
-core: 8.x
+core_version_requirement: ^8 || ^9
 package: Custom
 dependencies:
   - drupal:block_content
